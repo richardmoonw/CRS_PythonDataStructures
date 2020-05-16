@@ -1,4 +1,4 @@
-# Estructura de Datos en Python by University of Michigan
+# Python Data Structures by University of Michigan
 
 About this course:
 
