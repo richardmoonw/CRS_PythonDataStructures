@@ -6,7 +6,7 @@
 fname = input()
 
 # Open the file
-romeo = open(fname, "r")
+romeo = open("files/" + fname, "r")
 wordsList = list()
 
 # Split every line of the document

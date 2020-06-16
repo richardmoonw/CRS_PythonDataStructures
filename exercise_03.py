@@ -5,7 +5,7 @@
 fname = input()
 
 # Open the file with the given name
-fhandler = open(fname, "r")
+fhandler = open("files/" + fname, "r")
 
 # Print the content of the file in upper case
 file_content = fhandler.read().strip()

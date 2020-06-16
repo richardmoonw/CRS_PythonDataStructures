@@ -7,7 +7,7 @@
 fname = input()
 
 # Open the file
-file = open(fname, "r")
+file = open("files/" + fname, "r")
 emailList = list()
 
 # Look in every line of the file that starts with "From" and does not with "From:"

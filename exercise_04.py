@@ -10,7 +10,7 @@
 fname = input()
 
 # Open the file
-fhandler = open(fname, "r")
+fhandler = open("files/" + fname, "r")
 
 # Read through the file, look for matches, count the lines and extract the values
 counter = 0
