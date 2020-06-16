@@ -7,7 +7,7 @@
 file = open("files/mbox-short.txt", "r")
 persons = dict()
 
-# Iterate over the file and find the number of emails sent by each user
+# Iterate over each line of the file and find the number of emails sent by each user
 for line in file:
 
     words_in_line = line.split()
